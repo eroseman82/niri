@@ -89,7 +89,7 @@
                     "id": "Launcher"
                 },
                 {
-                    "clockColor": "none",
+                    "clockColor": "primary",
                     "customFont": "",
                     "formatHorizontal": "h:mm AP ddd, MMM dd",
                     "formatVertical": "hh mm - dd MM",
@@ -100,7 +100,7 @@
                 {
                     "compactMode": false,
                     "diskPath": "/",
-                    "iconColor": "none",
+                    "iconColor": "secondary",
                     "id": "SystemMonitor",
                     "showCpuFreq": false,
                     "showCpuTemp": true,
@@ -113,8 +113,8 @@
                     "showMemoryAsPercent": true,
                     "showMemoryUsage": true,
                     "showNetworkStats": false,
-                    "showSwapUsage": false,
-                    "textColor": "none",
+                    "showSwapUsage": true,
+                    "textColor": "error",
                     "useMonospaceFont": true,
                     "usePadding": false
                 },
@@ -143,18 +143,18 @@
                     "showArtistFirst": true,
                     "showProgressRing": true,
                     "showVisualizer": false,
-                    "textColor": "none",
+                    "textColor": "secondary",
                     "useFixedWidth": false,
                     "visualizerType": "linear"
                 },
                 {
                     "displayMode": "onhover",
-                    "iconColor": "none",
+                    "iconColor": "error",
                     "id": "VPN",
                     "textColor": "none"
                 },
                 {
-                    "iconColor": "none",
+                    "iconColor": "error",
                     "id": "WallpaperSelector"
                 }
             ],
@@ -240,7 +240,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Ayu",
+        "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -616,7 +616,7 @@
         "transitionType": "random",
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
