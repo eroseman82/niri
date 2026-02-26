@@ -75,6 +75,7 @@ inetutils
 iptables-nft
 iwd
 jfsutils
+lazygit
 less
 lib32-nvidia-utils
 lib32-opencl-nvidia

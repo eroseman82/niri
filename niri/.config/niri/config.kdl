@@ -1,3 +1,4 @@
+include "./cfg/workspaces.kdl"
 include "./cfg/autostart.kdl"
 include "./cfg/keybinds.kdl"
 include "./cfg/input.kdl"

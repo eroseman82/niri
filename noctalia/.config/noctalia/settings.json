@@ -43,7 +43,7 @@
         "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
-        "density": "compact",
+        "density": "default",
         "displayMode": "always_visible",
         "floating": false,
         "frameRadius": 12,
@@ -146,6 +146,16 @@
                     "textColor": "none",
                     "useFixedWidth": false,
                     "visualizerType": "linear"
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "VPN",
+                    "textColor": "none"
+                },
+                {
+                    "iconColor": "none",
+                    "id": "WallpaperSelector"
                 }
             ],
             "right": [
@@ -230,7 +240,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Gruber Darker",
+        "predefinedScheme": "Ayu",
         "schedulingMode": "off",
         "useWallpaperColors": false
     },
@@ -450,7 +460,7 @@
         },
         "sounds": {
             "criticalSoundFile": "",
-            "enabled": false,
+            "enabled": true,
             "excludedApps": "discord,firefox,chrome,chromium,edge",
             "lowSoundFile": "",
             "normalSoundFile": "",
