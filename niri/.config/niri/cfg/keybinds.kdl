@@ -1,5 +1,7 @@
 binds {
 
+    Mod+BracketLeft  { consume-or-expel-window-left; }
+    Mod+BracketRight { consume-or-expel-window-right; }
     // ────────────── Keybindings ──────────────
     // https://github.com/YaLTeR/niri/wiki/Configuration:-Key-Bindings
 
@@ -14,7 +16,7 @@ binds {
     Mod+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "chromium"; }
     Mod+SPACE                           hotkey-overlay-title="Open Fuzzel" { spawn "fuzzel"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
-    Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+    ALT+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
     Mod+S  { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
     Mod+Comma { spawn "qs" "-c" "noctalia-shell" "ipc" "call" "settings" "toggle"; }
     // Please choose your own file manager.
@@ -139,6 +141,6 @@ binds {
 
     // ─── Exit / Power ───
     CTRL+ALT+Delete                     { quit; } // Also quits Niri
-    Mod+Shift+P                         { power-off-monitors; } // Turn off screens (useful for OLED or privacy)
+    Mod+CTRL+P                         { power-off-monitors; } // Turn off screens (useful for OLED or privacy)
     Mod+O                               repeat=false { toggle-overview; }
 }
