@@ -47,6 +47,8 @@ diffutils
 dmidecode
 dmraid
 dnsmasq
+docker
+docker-compose
 dosfstools
 duf
 e2fsprogs
@@ -106,6 +108,7 @@ mesa-utils
 micro
 mkinitcpio
 modemmanager
+mongosh
 mtools
 nano
 nano-syntax-highlighting
@@ -179,5 +182,6 @@ wpa_supplicant
 xdg-user-dirs
 xfsprogs
 xl2tpd
+yay
 yazi
 zoxide
